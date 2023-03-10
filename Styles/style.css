@@ -68,6 +68,7 @@ tr:nth-of-type(odd) {
     border-collapse: collapse;
     border-color: #112a49;
     width: 90%;
+    overflow-x: auto;
 }
 
 .standard-image {
