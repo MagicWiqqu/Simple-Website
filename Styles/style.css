@@ -92,25 +92,21 @@ a.menu_link:hover{
     width: auto;
 }
 
-@media only screen and (min-width:550px){
+@media only screen and (min-width:650px){
 
     .logo_icon { display: none; }
-    .logo_name { display: block; }
     .menu_icon { display: none; }
 }
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width:650px){
 
-    .logo_icon { display: block; }
     .logo_name { display: none; }
     .menu_icon { display: none; }
 }
 
-@media only screen and (max-width:350px){
+@media only screen and (max-width:500px){
 
-    .logo_icon { display: block; }
     .logo_name { display: none; }
-    .menu_icon { display: none; }
     .menu_link { display: none; }
 
 }
@@ -151,7 +147,6 @@ h1 {
 
 tr:nth-of-type(odd) {
     background-color: #7eafe4;
-    ;
 }
 
 .archon-table {
