@@ -36,7 +36,6 @@
     margin-left: auto;
     margin-right: auto;
     align-self: center;
-    background-color: red;
     flex-grow: 4;
 }
 
@@ -49,11 +48,16 @@
     border-radius: 3px; 
     height: 30px;
     width: auto;
+    padding-left: 5%; 
+    padding-right: 5%;
 }
 
 a.menu_link:hover{
     background-color: rgb(250, 172, 2);
     color: white;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 2px;
 }
 
 .logo_name{
@@ -76,11 +80,13 @@ a.menu_link:hover{
 
     .logo_name { display: none; }
     .menu_icon { display: none; }
+    a.menu_link:hover { padding-top: 2%; padding-bottom: 2%;}
 }
 
 @media only screen and (max-width:500px){
 
     .logo_name { display: none; }
     .menu_link { display: none; }
+    .menu_icon {display : inline-flex;}
 
 }
