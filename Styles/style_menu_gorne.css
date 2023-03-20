@@ -8,6 +8,7 @@
     list-style: none;
     padding: 0;
     width: auto;
+    border-radius: 15px;
 }
 
 .item_napis{
@@ -61,9 +62,26 @@ a.menu_link:hover{
 }
 
 @keyframes logo {
-      from {color: transparet}
+      from {color: gold}
       to {color: white}
     }
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    25%  { transform: translateY(-10px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(10px); }
+    100% { transform: translateY(0); }
+}
+
+.logo_name:hover {
+    color: white;
+    animation-name: bounce;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+}
 
 .logo_name{
     animation-name: logo;
