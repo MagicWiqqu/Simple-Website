@@ -3,7 +3,6 @@
     top: 0;
     padding: 1px; 
     background-color: #112a49;
-    color: white;
     display: flex;
     align-items:stretch;
     list-style: none;
@@ -40,6 +39,7 @@
 }
 
 .menu_link{
+    color:white;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -60,13 +60,21 @@ a.menu_link:hover{
     border-radius: 2px;
 }
 
+@keyframes logo {
+      from {color: transparet}
+      to {color: white}
+    }
+
 .logo_name{
-    color:white;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
 .logo_icon{
-    border-radius: 3px; 
-    height: 60px;
+    border-radius: 3px;
+    padding-top: 5%; 
+    height: 55px;
     width: auto;
 }
 
