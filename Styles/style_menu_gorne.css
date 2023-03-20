@@ -62,13 +62,13 @@ a.menu_link:hover{
 }
 
 @keyframes logo {
-      from {color: gold}
-      to {color: white}
+     0% {color: rgb(250, 172, 2);}
+     100% {color: white;}
     }
 
 @keyframes bounce {
-    0%   { transform: translateY(0); }
-    25%  { transform: translateY(-10px); }
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-10px); }
     50% { transform: translateY(0); }
     75% { transform: translateY(10px); }
     100% { transform: translateY(0); }
@@ -78,7 +78,7 @@ a.menu_link:hover{
     color: white;
     animation-name: bounce;
     animation-timing-function: ease;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     transform-origin: center;
 }
