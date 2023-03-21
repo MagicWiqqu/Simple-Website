@@ -37,8 +37,32 @@ body{
 }
 
 .landing-page{
-    min-height: 100vh;
-    height: 100vh;
+    width: auto;
+}
+
+@keyframes bounce-arrow {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-10px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(10px); }
+    100% { transform: translateY(0); }
+}
+
+.moving-arrow {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: -80%;
+    display: block;
+    margin: auto;
+    height: 5%;
+    width: auto;
+    animation-name: bounce;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
 }
 
 .container-main {
