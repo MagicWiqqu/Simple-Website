@@ -99,20 +99,6 @@ h1 {
     text-align: center; 
 }
 
-tr:nth-of-type(odd) {
-    background-color: #7eafe4;
-}
-
-.archon-table {
-    border: 1px dotted; 
-    margin-left: auto; 
-    margin-right: auto;
-    border-collapse: collapse;
-    border-color: #112a49;
-    width: 90%;
-    overflow-x: auto;
-}
-
 .standard-image {
     border-radius: 8px; 
     display: block;
