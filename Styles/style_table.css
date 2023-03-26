@@ -1,6 +1,5 @@
 .fl-table {
     border-radius: 10px;
-    font-size: 12px;
     font-weight: normal;
     border: none;
     border-collapse: separate;
@@ -17,7 +16,6 @@
 
 .fl-table td {
     border-right: 1px solid #f8f8f8;
-    font-size: 12px;
 }
 
 .fl-table thead th {
