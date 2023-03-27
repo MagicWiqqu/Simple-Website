@@ -1,0 +1,15 @@
+@font-face {
+    font-family: GenshinFont;
+    src: url("../Styles/zh-cn.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: standard;
+    src: url("../Styles/downloaded.ttf") format("truetype");
+}
+
+@keyframes bounce-arrow {
+    0% { transform: translateY(-10px); }
+    50% { transform: translateY(10px); }
+    100% { transform: translateY(-10px); }
+}

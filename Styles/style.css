@@ -1,12 +1,6 @@
-
-@font-face {
-    font-family: GenshinFont;
-    src: url("../Styles/zh-cn.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: standard;
-    src: url("../Styles/downloaded.ttf") format("truetype");
+:root{
+    --pretty_blue : #112a49;
+    --pretty_gold : #FAAC02
 }
 
 .title {
@@ -29,7 +23,7 @@ body{
 .footer {
     padding: 15px; 
     text-align: center; 
-    background-color: #112a49;
+    background-color: var(--pretty_blue);
     color: white;
     font-family: GenshinFont; 
     font-weight: 400; 
@@ -38,14 +32,6 @@ body{
 
 .landing-page{
     width: auto;
-}
-
-@keyframes bounce-arrow {
-    0% { transform: translateY(0); }
-    25% { transform: translateY(-10px); }
-    50% { transform: translateY(0); }
-    75% { transform: translateY(10px); }
-    100% { transform: translateY(0); }
 }
 
 .moving-arrow {
@@ -64,6 +50,33 @@ body{
     animation-iteration-count: infinite;
     transform-origin: center;
 }
+
+.side-menu-container,
+      .side-menu,
+      .side-menu > a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+      }
+      .side-menu-container {
+        position: fixed;
+        height: 100vh;
+        left: 0px;
+      }
+      .side-menu > a {
+        margin: 5px 0px;
+        height: 40px;
+        background-color: var(--pretty_blue);
+        border-radius: 5px;
+      }
+      .side-menu > a:hover {
+        margin: 5px 0px;
+        height: 40px;
+        color: #fff;
+        background-color: #000;
+      }
 
 .container-main {
     text-align: justify; 
@@ -94,7 +107,7 @@ body{
 }
 
 h1 {
-    color: #112a49;
+    color: var(--pretty_blue);
     font-family: Segoe UI, Arial, sans-serif; 
     text-align: center; 
 }
@@ -118,7 +131,7 @@ h1 {
 }
 
 .polaroid {
-    background-color: #112a49;
+    background-color: var(--pretty_blue);
     border-radius: 8px;
     box-shadow: 5px 5px 5px #3e454fa5;
     padding-top: 2.5%;
@@ -133,7 +146,7 @@ h1 {
 }
 
 a:hover {
-    color: gold;
+    color: var(--pretty_gold);
     text-decoration: underline;
 }
 
@@ -149,7 +162,7 @@ a:focus {
 
 hr {
     border-top: 5px solid;
-    color: rgb(250, 172, 2);
+    color: var(--pretty_gold);
     width: 50%;
     border-radius: 8px;
 }

@@ -5,7 +5,9 @@
     <link rel="stylesheet" media="screen" href="Styles/style.css" />
     <link rel="stylesheet" media="screen" href="Styles/style_menu_gorne.css" />
     <link rel="stylesheet" media="screen" href="Styles/style_table.css" />
+    <link rel="stylesheet" media="screen" href="Styles/fonts_and_animations.css" />
     <link rel="shortcut icon" href="Images/Icon.jpg" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta charset="UTF-8" />
     <meta name="description" content="Stronka o Genshinku" />
     <meta name="keywords" content="Genshin Impact, Anime, Gra" />
@@ -14,6 +16,25 @@
     <style></style>
   </head>
   <body style="margin: 0px">
+    <div id = "side-contain" class="side-menu-container">
+      <nav id = "side" class="side-menu">
+        <a href="https://www.facebook.com/Genshinimpact/">
+          <div>
+            <i class="Facebook"></i>
+          </div>
+        </a>
+        <a href="https://twitter.com/GenshinImpact?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+          <div>
+            <i class="Twitter"></i>
+          </div>
+        </a>
+        <a>
+          <div>
+            <i class="Sound"></i>
+          </div>
+        </a>
+      </nav>
+    </div>
     <header class="header">
       <p class="title">Genshin Impact</p>
     </header>
@@ -24,14 +45,14 @@
           <img class="logo_icon" src="Images/Icon.jpg" />
         </div>
       </div>
-      <div class="item_button">
-        <a class="menu_link">Home</a>
-        <a><img class="menu_icon" src="Images/home.png" /></a>
-        <a class="menu_link">Characters</a>
-        <a><img class="menu_icon" src="Images/characters.png" /></a>
-        <a class="menu_link">Artifacts</a>
-        <a><img class="menu_icon" src="Images/artifacts.png" /></a>
-      </div>
+      <nav class="item_button">
+        <a id = "ToHome" class="menu_link">Home</a>
+        <a id = "ToHome"><img class="menu_icon" src="Images/home.png"/></a>
+        <a id = "ToTarget" class="menu_link">Target</a>
+        <a id = "ToTarget"><img class="menu_icon" src="Images/characters.png"/></a>
+        <a id = "ToLore" class="menu_link">Lore</a>
+        <a id = "ToLore"><img class="menu_icon" src="Images/artifacts.png"/></a>
+      </nav>
     </div>
     <div class="landing-page" , style="position: relative">
       <img
@@ -61,20 +82,13 @@
           <img
             src="Images/GenshinFirst.jpg"
             alt="Genshin"
-            class="standard-image2"
-          />
-          <br />
+            class="standard-image2"/>
+          <br/>
           <p>
             Dołącz do pięknego świata Genshina już teraz i zainwestuj cenne lata
             swojego życia. To nic nie kosztuje, w przeciwieństwie do warunku z
             rachunku prawdopodobieństwa!
           </p>
-          <a
-            href="https://genshin.hoyoverse.com/pc-launcher/?utm_source=EU_google_EUT2_search_20220719&mhy_trace_channel=ga_channel&new=1&gclid=CjwKCAiAr4GgBhBFEiwAgwORreKkovaRUY4NOtEG7DbJdMQ3BpO7Sfq2HAxu2IoVCXKeLmmPyPdlMRoCZEoQAvD_BwE#/GI008"
-            style="text-align: center; display: block; color: white"
-          >
-            To jest odsyłacz do strony Genshina</a
-          >
         </div>
       </div>
       <hr />
@@ -248,5 +262,6 @@
       <p>Wiktoria Arendarczyk, 2023 ©</p>
       <p></p>
     </footer>
+    <script src="jquery.js"></script>
   </body>
 </html>
