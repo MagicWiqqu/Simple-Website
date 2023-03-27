@@ -6,6 +6,7 @@
     <link rel="stylesheet" media="screen" href="Styles/style_menu_gorne.css" />
     <link rel="stylesheet" media="screen" href="Styles/style_table.css" />
     <link rel="stylesheet" media="screen" href="Styles/fonts_and_animations.css" />
+    <link rel="stylesheet" media="screen" href="Styles/style_side_menu.css" />
     <link rel="shortcut icon" href="Images/Icon.jpg" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta charset="UTF-8" />
@@ -20,17 +21,19 @@
       <nav id = "side" class="side-menu">
         <a href="https://www.facebook.com/Genshinimpact/">
           <div>
-            <i class="Facebook"></i>
+            <img class = "side-menu-image" src="Images/fb.png"/>
           </div>
         </a>
         <a href="https://twitter.com/GenshinImpact?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
           <div>
-            <i class="Twitter"></i>
+            <img class = "side-menu-image" src="Images/twitter.png"/>
           </div>
         </a>
-        <a>
+        <a id = "song-change">
           <div>
-            <i class="Sound"></i>
+            <audio class="audio" src="Images/Soundtrack.mp3" type="audio/mpeg"></audio>
+            <img id = "song-on" class = "side-menu-image" src="Images/volume.png"/>
+            <img id = "song-off" class = "side-menu-image" src="Images/mute.png"/>
           </div>
         </a>
       </nav>
@@ -47,11 +50,11 @@
       </div>
       <nav class="item_button">
         <a id = "ToHome" class="menu_link">Home</a>
-        <a id = "ToHome"><img class="menu_icon" src="Images/home.png"/></a>
+        <a><img onclick = "scroll1()" class="menu_icon" src="Images/home.png"/></a>
         <a id = "ToTarget" class="menu_link">Target</a>
-        <a id = "ToTarget"><img class="menu_icon" src="Images/characters.png"/></a>
+        <a><img onclick = "scroll2()" class="menu_icon" src="Images/characters.png"/></a>
         <a id = "ToLore" class="menu_link">Lore</a>
-        <a id = "ToLore"><img class="menu_icon" src="Images/artifacts.png"/></a>
+        <a><img onclick = "scroll3()" class="menu_icon" src="Images/artifacts.png"/></a>
       </nav>
     </div>
     <div class="landing-page" , style="position: relative">
