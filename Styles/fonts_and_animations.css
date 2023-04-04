@@ -13,3 +13,18 @@
     50% { transform: translateY(10px); }
     100% { transform: translateY(-10px); }
 }
+
+@keyframes float {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -50%) translateY(-20px);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(-50%, -50%) translateY(-10px);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(-50%, -50%) translateY(-20px);
+    }
+  }

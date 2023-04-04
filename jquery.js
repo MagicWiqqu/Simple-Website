@@ -61,3 +61,13 @@ $(document).ready(function(){
         }
     });
 });
+
+const button = document.getElementById('button');
+const emoji = document.getElementById('emoji');
+
+button.addEventListener('click', () => {
+  emoji.style.display = 'block';
+  setTimeout(() => {
+    emoji.style.display = 'none';
+  }, 2000);
+});

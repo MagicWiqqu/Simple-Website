@@ -156,3 +156,29 @@ hr {
     margin-right: auto;
     flex-grow: 1;
 }
+
+.ayato_button{
+    background-color: var(--pretty_blue);
+    color: white;
+    font-family: GenshinFont;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#emoji {
+    position: fixed;
+    display: none;
+    width: auto;
+    height: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-name: float;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+  }
