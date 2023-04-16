@@ -12,6 +12,7 @@
 
 body{
     background-image: url("../Images/BackgroundLiyue.jpg");
+    background-attachment: fixed;
 }
 
 .header{
