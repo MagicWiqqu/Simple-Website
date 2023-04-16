@@ -126,8 +126,8 @@ h1 {
     max-width: 1500px;
 }
 
-a:focus {
-    color: black;
+a:visited {
+    color: #2663AD;
     text-decoration: none;
 }
 
@@ -136,10 +136,7 @@ a:hover {
     text-decoration: underline;
 }
 
-a:visited {
-    color: #2663AD;
-    text-decoration: none;
-}
+
 
 hr {
     border-top: 5px solid;
