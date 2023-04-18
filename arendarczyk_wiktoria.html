@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang = "pl">
   <head>
     <title>Genshin Impact - wstęp</title>
-    <link rel="stylesheet" media="screen" href="Styles/style.css" />
-    <link rel="stylesheet" media="screen" href="Styles/style_menu_gorne.css" />
-    <link rel="stylesheet" media="screen" href="Styles/style_table.css" />
+    <link rel="stylesheet" media="screen" href="Styles/style.css"/>
+    <link rel="stylesheet" media="screen" href="Styles/style_menu_gorne.css"/>
+    <link rel="stylesheet" media="screen" href="Styles/style_table.css"/>
     <link
       rel="stylesheet"
       media="screen"
       href="Styles/fonts_and_animations.css"
     />
-    <link rel="stylesheet" media="screen" href="Styles/style_side_menu.css" />
+    <link rel="stylesheet" media="screen" href="Styles/style_side_menu.css"/>
     <link rel="shortcut icon" href="Images/Icon.jpg" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta charset="UTF-8" />
-    <meta name="description" content="Stronka o Genshinku" />
-    <meta name="keywords" content="Genshin Impact, Anime, Gra" />
-    <meta name="author" content="Wiktoria Arendarczyk" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Stronka o Genshinku"/>
+    <meta name="keywords" content="Genshin Impact, Anime, Gra"/>
+    <meta name="author" content="Wiktoria Arendarczyk"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <style></style>
   </head>
   <body style="margin: 0px">
@@ -25,14 +25,14 @@
       <nav id="side" class="side-menu">
         <a href="https://www.facebook.com/Genshinimpact/">
           <div>
-            <img class="side-menu-image" src="Images/fb.png" />
+            <img class="side-menu-image" src="Images/fb.png" alt = "Side Menu"/>
           </div>
         </a>
         <a
           href="https://twitter.com/GenshinImpact?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
         >
           <div>
-            <img class="side-menu-image" src="Images/twitter.png" />
+            <img class="side-menu-image" src="Images/twitter.png"/>
           </div>
         </a>
         <a id="song-change">
@@ -42,8 +42,8 @@
               src="Images/Soundtrack.mp3"
               type="audio/mpeg"
             ></audio>
-            <img id="song-on" class="side-menu-image" src="Images/volume.png" />
-            <img id="song-off" class="side-menu-image" src="Images/mute.png" />
+            <img id="song-on" class="side-menu-image" src="Images/volume.png" alt = "Side menu volume on"/>
+            <img id="song-off" class="side-menu-image" src="Images/mute.png" alt = "Side menu volume off"/>
           </div>
         </a>
       </nav>
@@ -55,34 +55,40 @@
       <div class="item_napis">
         <p class="logo_name">Genshin Wikia</p>
         <div class="appear">
-          <img class="logo_icon" src="Images/Icon.jpg" />
+          <img class="logo_icon" src="Images/Icon.jpg" alt = "Icon"/>
         </div>
       </div>
       <nav class="item_button">
         <a id="ToHome" class="menu_link">Home</a>
-        <a
-          ><img onclick="scroll1()" class="menu_icon" src="Images/home.png"
-        /></a>
+        <a>
+          <img 
+          onclick="scroll1()" 
+          class="menu_icon" 
+          src="Images/home.png" 
+          alt = "Upper menu home"/>
+        </a>
         <a id="ToTarget" class="menu_link">Target</a>
-        <a
-          ><img
+        <a>
+            <img
             onclick="scroll2()"
             class="menu_icon"
-            src="Images/characters.png"
-        /></a>
+            src="Images/characters.png" 
+            alt = "Upper menu icon"/>
+        </a>
         <a id="ToLore" class="menu_link">Lore</a>
-        <a
-          ><img
-            onclick="scroll3()"
-            class="menu_icon"
-            src="Images/artifacts.png"
-        /></a>
+        <a>
+          <img
+          onclick="scroll3()"
+          class="menu_icon"
+          src="Images/artifacts.png"
+          alt = "Upper menu lore link"/>
+        </a>
       </nav>
     </div>
     <div class="landing-page" , style="position: relative">
       <img
         src="Images/LandingWallpaperFinal.png"
-        alt="Genshin"
+        alt="Genshin landing page"
         style="width: 100%; height: 100%; position: relative"
       />
       <img
@@ -93,7 +99,7 @@
       />
     </div>
     <div class="container-main">
-      <hr />
+      <hr/>
       <div class="container" id="sekcja1">
         <h1>Czy warto uzależnić się od Genshina?</h1>
         <p>
@@ -107,10 +113,10 @@
         <div class="polaroid">
           <img
             src="Images/GenshinFirst.jpg"
-            alt="Genshin"
+            alt="Genshin first image"
             class="standard-image2"
           />
-          <br />
+          <br/>
           <p>
             Dołącz do pięknego świata Genshina już teraz i zainwestuj cenne lata
             swojego życia. To nic nie kosztuje, w przeciwieństwie do warunku z
@@ -133,7 +139,7 @@
         <div class="polaroid">
           <img
             src="Images/GenshinHuTao.jpg"
-            alt="Genshin"
+            alt="Genshin second image"
             class="standard-image2"
           />
         </div>
@@ -142,10 +148,13 @@
         </h2>
         <div style="text-align: center">
           <button id="button" class="ayato_button">Click me!</button>
-          <img src="Images/ayato_emoji.png" id="emoji" />
+          <img 
+          src="Images/ayato_emoji.png" 
+          id="emoji"
+          alt = "Ayato emote"/>
         </div>
       </div>
-      <hr />
+      <hr/>
       <div class="container" id="sekcja3">
         <h1>Lore Teyvatu, czyli świata Genshina.</h1>
         <p>
@@ -172,7 +181,7 @@
         <div class="polaroid">
           <img
             src="Images/GenshinLore.jpeg"
-            alt="Genshin"
+            alt="Genshin third image"
             class="standard-image2"
           />
           <p>
@@ -181,7 +190,7 @@
           </p>
         </div>
       </div>
-      <hr />
+      <hr/>
       <div class="container" id="sekcja4">
         <h1>Główne nacje oraz ich krótka charakterystyka.</h1>
         <div class="flexbox" style="overflow-y: auto">
